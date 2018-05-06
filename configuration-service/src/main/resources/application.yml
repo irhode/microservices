@@ -1,0 +1,10 @@
+server:
+  port: 8888
+spring:
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: file:///media/rhode/WD/Development/Workspaces/Idea/Microservices/configuration-service/src/main/resources/config/configuration-service
